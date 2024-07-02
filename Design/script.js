@@ -66,7 +66,7 @@ let mins = date.getMinutes();
 let current_time = '${hrs} : ${mins}'
 let currentDate = `${day} / ${month} / ${year}`;
 document.querySelector('.dateNow').innerHTML = currentDate;
-document.queryselector('.timeNow').innerHTML = current_time;
+document.queryselector('.time').innerHTML = current_time;
 }
 });
 
