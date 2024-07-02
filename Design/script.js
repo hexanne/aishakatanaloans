@@ -57,6 +57,14 @@ document.querySelector("#names").innerHTML  = document.querySelector(".names").v
 document.querySelector("#names2").innerHTML  = "Dear "+document.querySelector(".names").value.toUpperCase();
 document.querySelector('.loanPage').style.display = "flex";
 document.querySelector('#form').style.display = "none";
+const date = new Date();
+let day = date.getDate();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
+let current_time = date.getHours()+":"+date.getMinutes();
+let currentDate = `${day} / ${month} / ${year}`;
+document.querySelector('.dateNow').innerHTML = currentDate;
+document.queryselector('.timeNow').innerHTML = current_time;
 }
 });
 
