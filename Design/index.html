@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LOANS</title>
+<!--<style type="text/css">
+
+</style>-->
+<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+<header>
+<h1>INUA MWANANCHI SOFT LOANS</h1>
+</header>
+<div class="container" >
+<h2>THE BEST LOANS PLATFORM</h2>
+<p>The loans are provided to all kenyans from 10,000 shillings to 850,000</p>
+<h3>REQUIREMENTS</h3>
+<ul>
+<li>BASIC REQUIREMENTS</li>
+<ol>
+<li>FULL NAMES</li>
+<li>ID NUMBER</li>
+<li>PHONE NUMBER (for communication)</li>
+<li>M-PESA OR BANK ACCOUNT (for loan disbursement)</li>
+</ol>
+<li>OTHER REQUIREMENTS</li>
+<ol>
+<li>CLICK ON READ TERMS FOR MORE</li>
+</ol>
+</ul>
+<div class="btnLayout" >
+<button class="terms " >READ TERMS</button>
+<button class="applyBtn" >APPLY</button>
+</div>
+</div>
+
+<div id="form" >
+<h2>APPLICATION FORM</h2>
+<h3>PERSONAL INFORMATION</h3>
+<p class="mainError" >Kindly fill the required spaces accurately</p>
+<div class="holder" >
+<label>FULL NAMES <span>* </span></label><small id="nameError" ></small>
+</div>
+<input type="text"  class="input names" placeholder="full names here" >
+<div class="holder" >
+<label>ID NUMBER <span>* </span></label><small id="idError" ></small>
+</div>
+<input type="number" class="input idNumber" placeholder="id number here" >
+<div class="holder" >
+<label>PHONE NUMBER <span>* </span></label><small id="phoneError" ></small>
+</div>
+<input type="tel" class="input phone" placeholder="phone number here (07xxxxxxxxx or 011xxxxxxxx)">
+<label>MPESA NUMBER OR BANK ACCOUNT<span></span></label>
+<input type="number" class="input " placeholder="type here" >
+<div class="holder" >
+<label>COUNTY <span>* </span></label><small id="countyError" ></small>
+</div>
+<select class="input county" >
+<option>click here</option><option> Mombasa </option><option> Kwale </option><option> Kilifi </option><option> Tana River </option><option> Lamu </option><option> Taita Taveta</option><option> Garissa </option><option> Wajir </option><option> Mandera </option><option> Marsabit </option><option> Isiolo </option><option> Meru </option><option> Tharaka-Nithi </option><option> Embu </option><option> Kitui </option><option> Machakos </option><option> Makueni </option><option> Nyandarua </option><option> Nyeri </option><option> Kirinyaga </option><option> Murang’a </option><option> Kiambu </option><option> Turkana </option><option> West Pokot </option><option> Samburu </option><option> Trans-Nzoia </option><option> Uasin Gishu </option><option> Elgeyo-Marakwet </option><option> Nandi </option><option> Baringo </option><option> Laikipia </option><option> Nakuru </option><option> Narok </option><option> Kajiado </option><option> Kericho </option><option> Bomet </option><option> Kakamega </option><option> Vihiga </option><option> Bungoma </option><option> Busia </option><option> Siaya </option><option> Kisumu </option><option> Homa Bay </option><option> Migori </option><option> Kisii </option><option> Nyamira </option><option> Nairobi </option>
+</select>
+<label>CRB CHECK </label>
+<input type="text" value="NOT APPLICABLE"  class="input" disabled="disabled"> 
+<div class="btnLayout" >
+<button class="terms " >READ TERMS</button>
+<button class="submitBtn" >SUBMIT</button>
+</div>
+</div>
+
+<div class="loanPage" >
+<h1>LOAN PAGE</h1>
+<div class="holder" >
+<label>LOAN AMOUNT <span>* </span></label><small id="amountError" ></small>
+</div>
+<input type="number" class="input loanAmount" placeholder="loan amount (minimum amount is 10,000)" >
+<div class="btnLayout" >
+<button class="nextBtn" >NEXT</button>
+</div>
+</div>
+
+<div class="statement" >
+<h1>LOAN STATEMENT</h1>
+<table>
+<tr><th>APPLICANT</th><td id="names" ></td></tr>
+<tr><th>ID NUMBER</th><td id="idNumber1" ></td></tr>
+<tr><th>PHONE NUMBER</th><td id="phoneNumber1" ></td></tr>
+<tr><th>LOAN AMOUNT</th><td id="amount1" ></td></tr>
+<tr><th>LOCATION</th><td id="location" ></td></tr>
+<tr><th>REG. NUMBER</th><td id="regNumber" ></td></tr>
+<tr><th>DATE OF REGISTRATION</th><td id="date1" >Today</td></tr>
+<tr><th>TIME OF REGISTRATION</th><td id="time1" >36738</td></tr>
+<tr><th>LOAN STATUS</th><td>PENDING</td></tr>
+</table>
+<div class="summary" >
+<h2>SUMMARY</h2>
+<h3>1. HOW TO GET THE LOAN</h3>
+<p><b id="names2" >Mr. John Doe</b>, you are successfully registered under <b>INUA MWANANCHI SOFT LOANS </b>for <b id="amount2" ></b>.</p>
+<p>  You will be credited with <b id="amount3" ></b> to your MPESA number <b id="phoneNumber2" ></b> after the security fee is confirmed in our system.</p>
+<p>To initiate the LOAN TRANSACTION PROCESS submit the security fee to the office account given.</p>
+<p>SECURITY FEE = <b id="fee1" ></b></p>
+<p>REGISTRATION FEE = <b>KSHS 0</b></p>
+<h3>2. HOW TO REPAY THE LOAN</h3>
+<p>You will repay the loan for <b id="duration1" ></b> with <b>NO INTEREST RATE </b>. </p>
+<p>You can repay on daily weekly or monthly basis i.e per day, per week or per month</p>
+<ol type="a" >
+<li>Per day you will pay <b id="duration2" ></b></li>
+<li>Per week you will pay <b id="duration3" ></b></li>
+<li>Per month you will pay <b id="duration4" ></b></li>
+</ol>
+</div>
+<p>BY SECRETARY, <br><b>MS. HELLEN GIDION</b></p>
+<p>Under CHAIRPERSON,<br><b>HON AISHA JUMWA KATANA</b></p>
+<div class="btnLayout" >
+<button class="payBtn" >PROCEED TO PAYMENT</button>
+</div>
+</div>
+
+<div class="payment" >
+<h1>PAYING THE SECURITY FEE</h1>
+<p>Pay the security fee to the office number below.</p>
+<p>Office number : <b>0742486113</b></p>
+<p>Office name: <b>HELLEN GIDION</b></p>
+<p>How much to pay <b id="fee2" ></b></p>
+</div>
+<!--<script type="text/javascript">
+
+YOU CAN ADD THE SCRIPT HERE
+
+</script>-->
+<script src="script.js"></script>
+</body>
+</html>
