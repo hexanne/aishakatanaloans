@@ -61,12 +61,10 @@ const date = new Date();
 let day = date.getDate();
 let month = date.getMonth() + 1;
 let year = date.getFullYear();
-let hrs = date.getHours();
-let mins = date.getMinutes();
-let current_time = '${hrs} : ${mins}';
+let current_time = date.getHours()+":"+date.getMinutes();
 let currentDate = `${day} / ${month} / ${year}`;
 document.querySelector('.dateNow').innerHTML = currentDate;
-document.queryselector('.time').innerHTML = current_time;
+document.querySelector('.time').innerHTML =current_time;
 }
 });
 
